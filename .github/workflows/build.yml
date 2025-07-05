@@ -18,7 +18,7 @@ jobs:
       run: |
         sudo apt-get clean
         sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android /opt/hostedtoolcache
-    df -h
+        df -h
     
     - name: Set JAVA_HOME
       run: |
