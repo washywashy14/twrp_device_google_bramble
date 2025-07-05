@@ -16,8 +16,8 @@ jobs:
 
     - name: Clean up APT cache & unused tools
       run: |
-    sudo apt-get clean
-    sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android /opt/hostedtoolcache
+        sudo apt-get clean
+        sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android /opt/hostedtoolcache
     df -h
     
     - name: Set JAVA_HOME
