@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="washywashy14/twrp_device_google_bramble" path="device/google/bramble" remote="github" revision="android-11" />
+  <project name="LineageOS/android_device_google_bramble" path="device/google/bramble" remote="github" revision="lineage-19.1" />
+  <project name="LineageOS/android_device_google_redbull" path="device/google/redbull" remote="github" revision="lineage-19.1" />
+  <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-19.1" />
 </manifest>
